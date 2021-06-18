@@ -1,0 +1,106 @@
+
+h2{
+    color:red;
+    border:inset;
+    border-width: 10px;
+    border-color: rgb(0, 162, 255);
+    font-variant: small-caps;
+    text-shadow: 2px 3px 1px white;
+    font-family: 'Indie Flower', cursive;
+}
+
+.header{
+    
+    background-color: rgb(176, 255, 145);
+    display:flex;
+    justify-content: space-evenly;
+    border:inset;
+
+}
+   
+
+h1 {
+   
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 5px  5px  rgb(255, 255, 255);
+    font-size:600%;
+    margin-right:200px;
+
+}
+
+.menu{
+    border: inset;
+    background-color: rgb(187, 255, 184);
+    
+}
+
+.menu a{
+    margin-top:40px;
+    padding:50px;
+}
+ 
+     
+.grid{
+    display : flex;
+    flex-wrap : wrap;
+    justify-self : center;
+    
+}
+
+
+
+.item{
+    border:double;
+    margin-right:80px;
+    margin-left:195px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer{
+   display:flex;
+   justify-content:flex-end;
+
+}
+
+p,h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+body {
+    background-color: #ffff00;
+}
+
+a:link{
+   color:black;
+
+}
+
+a:visited{
+   color: rgb(255, 0, 0);
+}
+
+
+.item{
+    position:relative;
+
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:0.8;
+}
+
+
+.item:hover img{
+    opacity:0.33;
+}
+
